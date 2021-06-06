@@ -1,0 +1,98 @@
+body {
+    background-color: #EEF2F5;
+    color: #333333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #777777;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+header a:hover {
+    color: #F47B21;
+    text-decoration: none;
+}
+
+footer a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #F47B21;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 300px;
+}
+
+input {
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 6px;
+    font-size: 15px;
+    border: 1px solid #9a69e1;
+    background-color: #9a69e1;
+    width: 80px;
+    color: white;
+    margin: 15px;
+    padding: 10px;
+}
+
+.btn:hover{
+    background-color: #796dce;
+    cursor: pointer;
+}
+
+.twit {
+    color: #1DA1F2;
+}
+
+.email {
+    color:black;
+}
+
+.linked {
+    color: #0072b1;
+}
